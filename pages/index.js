@@ -1,7 +1,7 @@
 //react
 import React from 'react';
 //css
-import './css/style.scss';
+import '../styles/globals.scss';
 import AOS from 'aos';
 
 //components
