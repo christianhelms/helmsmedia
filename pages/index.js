@@ -1,7 +1,7 @@
 //react
-import React, { useEffect } from 'react';
+import React from 'react';
 //css
-import AOS from 'aos';
+// import AOS from 'aos';
 
 //components
 import Header from '../components/Header';
@@ -15,16 +15,16 @@ import Footer from '../components/Footer';
 
 export default function Home() {
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      disable: 'phone',
-      duration: 700,
-      easing: 'ease-out-cubic',
-    });
-    // eslint-disable-next-line no-unused-vars
-    const sticky = new Sticky('[data-sticky]');
-  });
+  // useEffect(() => {
+  //   AOS.init({
+  //     once: true,
+  //     disable: 'phone',
+  //     duration: 700,
+  //     easing: 'ease-out-cubic',
+  //   });
+  //   // eslint-disable-next-line no-unused-vars
+  //   const sticky = new Sticky('[data-sticky]');
+  // });
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">

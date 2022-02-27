@@ -15,7 +15,7 @@ import FeaturesElement07 from '../public/hello.png';
 import FeaturesElement08 from '../public/id-like.png';
 import FeaturesElement09 from '../public/we-can.png';
 
-function FeaturesHome() {
+const FeaturesHome = () => {
 
   const [tab, setTab] = useState(1);
 

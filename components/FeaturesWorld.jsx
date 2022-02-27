@@ -4,7 +4,7 @@ import PlanetImage from '../public/planet.png';
 import PlanetAvatar01 from '../public/design-bombs.png';
 import PlanetAvatar02 from '../public/font-awesome.png';
 
-function FeaturesWorld() {
+const FeaturesWorld = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
