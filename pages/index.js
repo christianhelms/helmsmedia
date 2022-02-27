@@ -5,14 +5,14 @@ import '../styles/globals.scss';
 import AOS from 'aos';
 
 //components
-import Header from '../partials/Header';
-import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/FeaturesHome';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesWorld from '../partials/FeaturesWorld';
-import News from '../partials/News';
-import Cta from '../partials/Cta';
-import Footer from '../partials/Footer';
+import Header from '../components/Header';
+import HeroHome from '../components/HeroHome';
+import FeaturesHome from '../components/FeaturesHome';
+import FeaturesBlocks from '../components/FeaturesBlocks';
+import FeaturesWorld from '../components/FeaturesWorld';
+import News from '../components/News';
+import Cta from '../components/Cta';
+import Footer from '../components/Footer';
 
 const location = useLocation();
 

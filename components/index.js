@@ -1,0 +1,8 @@
+export { default as Header } from './Header'
+export { default as HeroHome } from './HeroHome'
+export { default as FeaturesHome } from './FeaturesHome'
+export { default as FeaturesBlocks } from './FeaturesBlocks'
+export { default as FeaturesWorld } from './FeaturesWorld'
+export { default as Cta } from './Cta'
+export { default as News } from './News'
+export { default as Footer } from './Footer'
