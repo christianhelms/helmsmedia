@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link'
-import Transition from '../utils/Transition';
-import Dropdown from '../utils/Dropdown';
-import Logo from '../images/helms-media-logo.svg';
+import Transition from '../pages/utils/Transition';
+import Dropdown from '../pages/utils/Dropdown';
+import Logo from '../public/helms-media-logo.svg';
 
 function Header() {
 

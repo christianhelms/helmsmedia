@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+import Modal from '../pages/utils/Modal';
 
-import HeroImage from '../images/helms-hero-image.png';
+import HeroImage from '../public/helms-hero-image.png';
 
 function HeroHome() {
 

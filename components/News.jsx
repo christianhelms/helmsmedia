@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'next/link';
 
-import NewsImage01 from '../images/news-01.jpg';
-import NewsImage02 from '../images/news-02.jpg';
-import NewsImage03 from '../images/news-03.jpg';
-import NewsAuthor01 from '../images/news-author-01.jpg';
-import NewsAuthor02 from '../images/news-author-02.jpg';
+import NewsImage01 from '../public/news-01.jpg';
+import NewsImage02 from '../public/news-02.jpg';
+import NewsImage03 from '../public/news-03.jpg';
+import NewsAuthor01 from '../public/news-author-01.jpg';
+import NewsAuthor02 from '../public/news-author-02.jpg';
 
 function News() {
   return (

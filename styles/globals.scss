@@ -4,10 +4,10 @@
 @tailwind components;
 
 // Additional styles
-@import 'additional-styles/utility-patterns.scss';
-@import 'additional-styles/range-slider.scss';
-@import 'additional-styles/toggle-switch.scss';
-@import 'additional-styles/theme.scss';
+@import './aditional-styles/utility-patterns.scss';
+@import './aditional-styles/range-slider.scss';
+@import './aditional-styles/toggle-switch.scss';
+@import './aditional-styles/theme.scss';
 
 @tailwind utilities;
 

@@ -1,7 +1,6 @@
 //react
-import React from 'react';
+import React, { useEffect } from 'react';
 //css
-import '../styles/globals.scss';
 import AOS from 'aos';
 
 //components
@@ -14,26 +13,19 @@ import News from '../components/News';
 import Cta from '../components/Cta';
 import Footer from '../components/Footer';
 
-const location = useLocation();
-
-useEffect(() => {
-  AOS.init({
-    once: true,
-    disable: 'phone',
-    duration: 700,
-    easing: 'ease-out-cubic',
-  });
-  // eslint-disable-next-line no-unused-vars
-  const sticky = new Sticky('[data-sticky]');
-});
-
-useEffect(() => {
-  document.querySelector('html').style.scrollBehavior = 'auto'
-  window.scroll({ top: 0 })
-  document.querySelector('html').style.scrollBehavior = ''
-}, [location.pathname]); // triggered on route change
-
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: 'phone',
+      duration: 700,
+      easing: 'ease-out-cubic',
+    });
+    // eslint-disable-next-line no-unused-vars
+    const sticky = new Sticky('[data-sticky]');
+  });
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 

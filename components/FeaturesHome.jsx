@@ -1,19 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Transition from '../utils/Transition';
+import Transition from '../pages/utils/Transition';
 
-import TopImage from '../images/features-top-image.png';
-import FeaturesBg01 from '../images/analytics-image.png';
-import FeaturesBg02 from '../images/feedback-image.png';
-import FeaturesBg03 from '../images/feature-website-hero.png';
-import FeaturesElement01 from '../images/yes.png';
-import FeaturesElement02 from '../images/i-did.png';
-import FeaturesElement03 from '../images/we-just.png';
-import FeaturesElement04 from '../images/change-please.png';
-import FeaturesElement05 from '../images/absolutely.png';
-import FeaturesElement06 from '../images/i-trust.png';
-import FeaturesElement07 from '../images/hello.png';
-import FeaturesElement08 from '../images/id-like.png';
-import FeaturesElement09 from '../images/we-can.png';
+import TopImage from '../public/features-top-image.png';
+import FeaturesBg01 from '../public/analytics-image.png';
+import FeaturesBg02 from '../public/feedback-image.png';
+import FeaturesBg03 from '../public/feature-website-hero.png';
+import FeaturesElement01 from '../public/yes.png';
+import FeaturesElement02 from '../public/i-did.png';
+import FeaturesElement03 from '../public/we-just.png';
+import FeaturesElement04 from '../public/change-please.png';
+import FeaturesElement05 from '../public/absolutely.png';
+import FeaturesElement06 from '../public/i-trust.png';
+import FeaturesElement07 from '../public/hello.png';
+import FeaturesElement08 from '../public/id-like.png';
+import FeaturesElement09 from '../public/we-can.png';
 
 function FeaturesHome() {
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import PlanetImage from '../images/planet.png';
-import PlanetAvatar01 from '../images/design-bombs.png';
-import PlanetAvatar02 from '../images/font-awesome.png';
+import PlanetImage from '../public/planet.png';
+import PlanetAvatar01 from '../public/design-bombs.png';
+import PlanetAvatar02 from '../public/font-awesome.png';
 
 function FeaturesWorld() {
   return (
