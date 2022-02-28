@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import Link from 'next/link'
 
 import NewsImage01 from '../public/news-01.jpg';
 import NewsImage02 from '../public/news-02.jpg';

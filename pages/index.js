@@ -1,33 +1,34 @@
 //react
-import React from 'react';
+import React, { useEffect } from 'react';
+import Head from 'next/head'
 //css
-// import AOS from 'aos';
+import AOS from 'aos';
+import Sticky from 'sticky-js';
 
 //components
-import Header from '../components/Header';
-import HeroHome from '../components/HeroHome';
-import FeaturesHome from '../components/FeaturesHome';
-import FeaturesBlocks from '../components/FeaturesBlocks';
-import FeaturesWorld from '../components/FeaturesWorld';
-import News from '../components/News';
-import Cta from '../components/Cta';
-import Footer from '../components/Footer';
+import { Header, HeroHome, FeaturesHome, 
+  FeaturesBlocks, FeaturesWorld, News, 
+  Cta, Footer } from '../components'
 
 export default function Home() {
 
-  // useEffect(() => {
-  //   AOS.init({
-  //     once: true,
-  //     disable: 'phone',
-  //     duration: 700,
-  //     easing: 'ease-out-cubic',
-  //   });
-  //   // eslint-disable-next-line no-unused-vars
-  //   const sticky = new Sticky('[data-sticky]');
-  // });
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: 'phone',
+      duration: 700,
+      easing: 'ease-out-cubic',
+    });
+    // eslint-disable-next-line no-unused-vars
+    const sticky = new Sticky('[data-sticky]');
+  });
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
+      <Head>
+        <title>Helms Media</title>
+        <link rel="icon" href="./public/helms-media-logo.svg" />
+      </Head>
 
       {/*  Site header */}
       <Header />
