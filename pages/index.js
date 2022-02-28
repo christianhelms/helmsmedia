@@ -1,7 +1,8 @@
 //react
 import React, { useEffect } from 'react';
 import Head from 'next/head'
-//css
+
+//styling
 import AOS from 'aos';
 import Sticky from 'sticky-js';
 
@@ -9,6 +10,9 @@ import Sticky from 'sticky-js';
 import { Header, HeroHome, FeaturesHome, 
   FeaturesBlocks, FeaturesWorld, News, 
   Cta, Footer } from '../components'
+
+  //logo
+import Logo from '../public/helms-media-logo.svg'
 
 export default function Home() {
 
@@ -27,7 +31,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
         <title>Helms Media</title>
-        <link rel="icon" href="./public/helms-media-logo.svg" />
+        <link rel="icon" href={ Logo } />
       </Head>
 
       {/*  Site header */}
