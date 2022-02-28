@@ -3,7 +3,7 @@ import Modal from '../pages/utils/Modal';
 
 import HeroImage from '../public/helms-hero-image.png';
 
-function HeroHome() {
+const HeroHome = () => {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 

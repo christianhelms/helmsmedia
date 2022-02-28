@@ -2,6 +2,7 @@
 
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 // Additional styles
 @import './aditional-styles/utility-patterns.scss';
@@ -9,14 +10,12 @@
 @import './aditional-styles/toggle-switch.scss';
 @import './aditional-styles/theme.scss';
 
-@tailwind utilities;
-
 // Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
 @layer utilities {
-    .rtl {
-        direction: rtl;
+    .filter-invert {
+      filter: invert(100%);
     }
-}
+  }
 
 // See Alpine.js: https://github.com/alpinejs/alpine#x-cloak
 [x-cloak] {

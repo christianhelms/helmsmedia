@@ -5,7 +5,7 @@ import { faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faUserTie } fr
 
 library.add(faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faUserTie)
 
-function FeaturesBlocks() {
+const FeaturesBlocks = () => {
   return (
     <section className="relative">
 
